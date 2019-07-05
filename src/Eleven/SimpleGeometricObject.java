@@ -1,3 +1,5 @@
+package Eleven;
+
 public class SimpleGeometricObject {
 
     private boolean filled;

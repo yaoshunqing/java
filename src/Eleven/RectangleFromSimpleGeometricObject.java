@@ -1,3 +1,5 @@
+package Eleven;
+
 public class RectangleFromSimpleGeometricObject extends SimpleGeometricObject {
 
     private double width;

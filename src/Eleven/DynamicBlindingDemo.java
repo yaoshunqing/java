@@ -1,3 +1,5 @@
+package Eleven;
+
 public class DynamicBlindingDemo {
     public static void main(String[] args) {
         m(new GraduateStudent());
@@ -17,14 +19,14 @@ class GraduateStudent extends Student {
 class Student extends Person {
     @Override
     public String toString() {
-        return "Student" ;
+        return "Eleven.Student" ;
     }
 }
 
 class Person extends Object {
     @Override
     public String toString() {
-        return "Person" ;
+        return "Eleven.Person" ;
     }
 }
 
