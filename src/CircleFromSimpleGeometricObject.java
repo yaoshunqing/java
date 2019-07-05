@@ -32,6 +32,8 @@ public class CircleFromSimpleGeometricObject extends SimpleGeometricObject {
         System.out.println("The circle is created " + getDateCreated() +
                 " and the radius is " + radius);
     }
-
+    public String toString() {
+        return super.toString() + "\nradius is " + radius;
+    }
 
 }
