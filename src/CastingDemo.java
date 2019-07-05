@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
 public class CastingDemo {
+    int i = 0;
 }
