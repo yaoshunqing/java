@@ -23,9 +23,9 @@ public class QuotientWithException {
 
             }
             catch (ArithmeticException ex) {
-                System.out.println("Execution continues ...");
+                System.out.println("Exception : an Integer cannot be diveded by zero. ");
             }
-
+            System.out.println("Execution continues ...");
         }
 
 }
