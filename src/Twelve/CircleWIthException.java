@@ -44,7 +44,8 @@ public class CircleWIthException {
         catch (IllegalArgumentException ex){
             System.out.println(ex);
         }
-
+        CircleWIthException a = new CircleWIthException(1);
+        System.out.println(a.findArea());
         System.out.println("Number os objects created: " + CircleWIthException.getNumberOfObjects());
 
     }
